@@ -1,4 +1,4 @@
-	subject	object	predicate_count	predicate_list
+	subject	object	count	list
 56	BiologicalProcess	BiologicalProcess	10	['subclass_of', 'superclass_of', 'process_negatively_regulates_process', 'process_negatively_regulated_by_process', 'process_positively_regulates_process', 'process_positively_regulated_by_process', 'process_regulates_process', 'process_regulated_by_process', 'has_part', 'part_of']
 57	BiologicalProcess	ChemicalEntity	1	['correlated_with']
 62	BiologicalProcess	Disease	3	['subclass_of', 'superclass_of', 'correlated_with']

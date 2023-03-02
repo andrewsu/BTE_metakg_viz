@@ -1,4 +1,4 @@
-	subject	object	api_count	api_list
+	subject	object	count	list
 0	Activity	Activity	1	['Automat-icees-kg(Trapi v1.3.0)']
 1	Activity	Annotation	1	['Automat-icees-kg(Trapi v1.3.0)']
 2	Activity	BiologicalProcess	1	['Automat-icees-kg(Trapi v1.3.0)']

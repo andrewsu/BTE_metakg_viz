@@ -1,4 +1,4 @@
-	subject	object	api_count	api_list
+	subject	object	count	list
 56	BiologicalProcess	BiologicalProcess	5	['Automat-viral-proteome(Trapi v1.3.0)', 'Automat-hetio(Trapi v1.3.0)', 'Automat-human-goa(Trapi v1.3.0)', 'Automat-panther(Trapi v1.3.0)', 'Gene Ontology Biological Process API']
 57	BiologicalProcess	ChemicalEntity	1	['Automat-icees-kg(Trapi v1.3.0)']
 62	BiologicalProcess	Disease	3	['Automat-viral-proteome(Trapi v1.3.0)', 'Automat-icees-kg(Trapi v1.3.0)', 'Automat-human-goa(Trapi v1.3.0)']

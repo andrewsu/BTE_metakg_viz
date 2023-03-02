@@ -1,4 +1,4 @@
-	subject	object	predicate_count	predicate_list
+	subject	object	count	list
 0	Activity	Activity	1	['correlated_with']
 1	Activity	Annotation	1	['correlated_with']
 2	Activity	BiologicalProcess	1	['correlated_with']
