@@ -3,127 +3,52 @@
   <key id="d1" for="edge" attr.name="weight" attr.type="long" />
   <key id="d0" for="node" attr.name="label" attr.type="string" />
   <graph edgedefault="undirected">
-    <node id="Polypeptide">
-      <data key="d0">Polypeptide</data>
+    <node id="MolecularMixture">
+      <data key="d0">Molecular
+Mixture</data>
+    </node>
+    <node id="Gene">
+      <data key="d0">Gene</data>
+    </node>
+    <node id="Protein">
+      <data key="d0">Protein</data>
+    </node>
+    <node id="Disease">
+      <data key="d0">Disease</data>
     </node>
     <node id="BiologicalProcess">
       <data key="d0">Biological
 Process</data>
     </node>
-    <node id="Disease">
-      <data key="d0">Disease</data>
+    <node id="PhenotypicFeature">
+      <data key="d0">Phenotypic
+Feature</data>
     </node>
-    <node id="MolecularMixture">
-      <data key="d0">Molecular
-Mixture</data>
+    <node id="Cell">
+      <data key="d0">Cell</data>
     </node>
     <node id="SmallMolecule">
       <data key="d0">Small
 Molecule</data>
     </node>
-    <node id="Protein">
-      <data key="d0">Protein</data>
-    </node>
-    <node id="PhenotypicFeature">
-      <data key="d0">Phenotypic
-Feature</data>
+    <node id="Polypeptide">
+      <data key="d0">Polypeptide</data>
     </node>
     <node id="ChemicalEntity">
       <data key="d0">Chemical
 Entity</data>
     </node>
-    <node id="Gene">
-      <data key="d0">Gene</data>
-    </node>
-    <node id="Cell">
-      <data key="d0">Cell</data>
-    </node>
-    <edge source="Polypeptide" target="BiologicalProcess">
-      <data key="d1">1</data>
-    </edge>
-    <edge source="Polypeptide" target="Cell">
+    <edge source="MolecularMixture" target="BiologicalProcess">
       <data key="d1">2</data>
-    </edge>
-    <edge source="Polypeptide" target="ChemicalEntity">
-      <data key="d1">6</data>
-    </edge>
-    <edge source="Polypeptide" target="Disease">
-      <data key="d1">4</data>
-    </edge>
-    <edge source="Polypeptide" target="Gene">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="Polypeptide" target="MolecularMixture">
-      <data key="d1">7</data>
-    </edge>
-    <edge source="Polypeptide" target="PhenotypicFeature">
-      <data key="d1">4</data>
-    </edge>
-    <edge source="Polypeptide" target="Polypeptide">
-      <data key="d1">5</data>
-    </edge>
-    <edge source="Polypeptide" target="Protein">
-      <data key="d1">3</data>
-    </edge>
-    <edge source="Polypeptide" target="SmallMolecule">
-      <data key="d1">10</data>
-    </edge>
-    <edge source="BiologicalProcess" target="BiologicalProcess">
-      <data key="d1">8</data>
-    </edge>
-    <edge source="BiologicalProcess" target="Cell">
-      <data key="d1">1</data>
-    </edge>
-    <edge source="BiologicalProcess" target="ChemicalEntity">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="BiologicalProcess" target="Disease">
-      <data key="d1">10</data>
-    </edge>
-    <edge source="BiologicalProcess" target="Gene">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="BiologicalProcess" target="MolecularMixture">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="BiologicalProcess" target="PhenotypicFeature">
-      <data key="d1">7</data>
-    </edge>
-    <edge source="BiologicalProcess" target="Protein">
-      <data key="d1">3</data>
-    </edge>
-    <edge source="BiologicalProcess" target="SmallMolecule">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="Disease" target="Cell">
-      <data key="d1">6</data>
-    </edge>
-    <edge source="Disease" target="ChemicalEntity">
-      <data key="d1">8</data>
-    </edge>
-    <edge source="Disease" target="Disease">
-      <data key="d1">14</data>
-    </edge>
-    <edge source="Disease" target="Gene">
-      <data key="d1">16</data>
-    </edge>
-    <edge source="Disease" target="MolecularMixture">
-      <data key="d1">7</data>
-    </edge>
-    <edge source="Disease" target="PhenotypicFeature">
-      <data key="d1">14</data>
-    </edge>
-    <edge source="Disease" target="Protein">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="Disease" target="SmallMolecule">
-      <data key="d1">16</data>
     </edge>
     <edge source="MolecularMixture" target="Cell">
       <data key="d1">2</data>
     </edge>
     <edge source="MolecularMixture" target="ChemicalEntity">
       <data key="d1">10</data>
+    </edge>
+    <edge source="MolecularMixture" target="Disease">
+      <data key="d1">7</data>
     </edge>
     <edge source="MolecularMixture" target="Gene">
       <data key="d1">3</data>
@@ -134,29 +59,44 @@ Entity</data>
     <edge source="MolecularMixture" target="PhenotypicFeature">
       <data key="d1">7</data>
     </edge>
+    <edge source="MolecularMixture" target="Polypeptide">
+      <data key="d1">7</data>
+    </edge>
     <edge source="MolecularMixture" target="Protein">
       <data key="d1">4</data>
     </edge>
     <edge source="MolecularMixture" target="SmallMolecule">
       <data key="d1">10</data>
     </edge>
-    <edge source="SmallMolecule" target="Cell">
-      <data key="d1">4</data>
+    <edge source="Gene" target="BiologicalProcess">
+      <data key="d1">2</data>
     </edge>
-    <edge source="SmallMolecule" target="ChemicalEntity">
-      <data key="d1">11</data>
+    <edge source="Gene" target="Cell">
+      <data key="d1">2</data>
     </edge>
-    <edge source="SmallMolecule" target="Gene">
-      <data key="d1">12</data>
-    </edge>
-    <edge source="SmallMolecule" target="PhenotypicFeature">
-      <data key="d1">11</data>
-    </edge>
-    <edge source="SmallMolecule" target="Protein">
+    <edge source="Gene" target="ChemicalEntity">
       <data key="d1">5</data>
     </edge>
-    <edge source="SmallMolecule" target="SmallMolecule">
-      <data key="d1">15</data>
+    <edge source="Gene" target="Disease">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="Gene" target="Gene">
+      <data key="d1">18</data>
+    </edge>
+    <edge source="Gene" target="PhenotypicFeature">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="Gene" target="Polypeptide">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Gene" target="Protein">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="Gene" target="SmallMolecule">
+      <data key="d1">12</data>
+    </edge>
+    <edge source="Protein" target="BiologicalProcess">
+      <data key="d1">3</data>
     </edge>
     <edge source="Protein" target="Cell">
       <data key="d1">1</data>
@@ -164,14 +104,59 @@ Entity</data>
     <edge source="Protein" target="ChemicalEntity">
       <data key="d1">10</data>
     </edge>
-    <edge source="Protein" target="Gene">
-      <data key="d1">1</data>
+    <edge source="Protein" target="Disease">
+      <data key="d1">2</data>
     </edge>
     <edge source="Protein" target="PhenotypicFeature">
       <data key="d1">1</data>
     </edge>
+    <edge source="Protein" target="Polypeptide">
+      <data key="d1">3</data>
+    </edge>
     <edge source="Protein" target="Protein">
       <data key="d1">9</data>
+    </edge>
+    <edge source="Protein" target="SmallMolecule">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="Disease" target="BiologicalProcess">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="Disease" target="Cell">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="Disease" target="ChemicalEntity">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="Disease" target="Disease">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="Disease" target="PhenotypicFeature">
+      <data key="d1">14</data>
+    </edge>
+    <edge source="Disease" target="Polypeptide">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="Disease" target="SmallMolecule">
+      <data key="d1">16</data>
+    </edge>
+    <edge source="BiologicalProcess" target="BiologicalProcess">
+      <data key="d1">8</data>
+    </edge>
+    <edge source="BiologicalProcess" target="Cell">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="BiologicalProcess" target="ChemicalEntity">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="BiologicalProcess" target="PhenotypicFeature">
+      <data key="d1">7</data>
+    </edge>
+    <edge source="BiologicalProcess" target="Polypeptide">
+      <data key="d1">1</data>
+    </edge>
+    <edge source="BiologicalProcess" target="SmallMolecule">
+      <data key="d1">2</data>
     </edge>
     <edge source="PhenotypicFeature" target="Cell">
       <data key="d1">1</data>
@@ -179,29 +164,44 @@ Entity</data>
     <edge source="PhenotypicFeature" target="ChemicalEntity">
       <data key="d1">8</data>
     </edge>
-    <edge source="PhenotypicFeature" target="Gene">
-      <data key="d1">7</data>
-    </edge>
     <edge source="PhenotypicFeature" target="PhenotypicFeature">
       <data key="d1">12</data>
     </edge>
-    <edge source="ChemicalEntity" target="Cell">
+    <edge source="PhenotypicFeature" target="Polypeptide">
       <data key="d1">4</data>
     </edge>
-    <edge source="ChemicalEntity" target="ChemicalEntity">
-      <data key="d1">10</data>
-    </edge>
-    <edge source="ChemicalEntity" target="Gene">
-      <data key="d1">5</data>
-    </edge>
-    <edge source="Gene" target="Cell">
-      <data key="d1">2</data>
-    </edge>
-    <edge source="Gene" target="Gene">
-      <data key="d1">18</data>
+    <edge source="PhenotypicFeature" target="SmallMolecule">
+      <data key="d1">11</data>
     </edge>
     <edge source="Cell" target="Cell">
       <data key="d1">4</data>
+    </edge>
+    <edge source="Cell" target="ChemicalEntity">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="Cell" target="Polypeptide">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="Cell" target="SmallMolecule">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="SmallMolecule" target="ChemicalEntity">
+      <data key="d1">11</data>
+    </edge>
+    <edge source="SmallMolecule" target="Polypeptide">
+      <data key="d1">10</data>
+    </edge>
+    <edge source="SmallMolecule" target="SmallMolecule">
+      <data key="d1">15</data>
+    </edge>
+    <edge source="Polypeptide" target="ChemicalEntity">
+      <data key="d1">6</data>
+    </edge>
+    <edge source="Polypeptide" target="Polypeptide">
+      <data key="d1">5</data>
+    </edge>
+    <edge source="ChemicalEntity" target="ChemicalEntity">
+      <data key="d1">10</data>
     </edge>
   </graph>
 </graphml>
